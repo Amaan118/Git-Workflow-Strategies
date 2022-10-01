@@ -81,12 +81,15 @@ The base of the hotfix branch should be your main branch and should be merged ba
 15. ```git reset filename```
 > reset the file condition
   
-16. ```git restire --staged filename```
+16. ```git restore --staged filename```
 > move file from staged to unstaged area
   
 17. ```git remote --v```
 > lists out all the remoted added to repo
-  
+
+18. ```git remote add origin <url>```
+> ladd new origin 
+
 ## For more info
 
  - [Git Flow Branch Strategy](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy#:~:text=The%20two%20primary%20branches%20in,feature%2C%20release%2C%20and%20hotfix.)
