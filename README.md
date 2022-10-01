@@ -63,6 +63,9 @@ The base of the hotfix branch should be your main branch and should be merged ba
 9. ```git branch -D <branch>```
 > Force delete the specified branch, even if it has unmerged changes. This is the command to use if you want to permanently throw away all of the commits associated with a particular line of development.
 
+10. ```git merge <branch-name(which is to be merged)>```
+> merge the <branch-name> with the current branch.
+
 ## For more info
 
  - [Git Flow Branch Strategy](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy#:~:text=The%20two%20primary%20branches%20in,feature%2C%20release%2C%20and%20hotfix.)
