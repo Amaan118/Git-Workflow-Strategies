@@ -37,6 +37,18 @@ The base of the hotfix branch should be your main branch and should be merged ba
 ![Logo](https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/git-flow.svg)
 
 
+### some commands which deals with git branches  
+
+1. ```git checkout <branch-name>```
+> Checkout to the <branch-name> branch.  
+  
+2. ```git branch```
+> List all branches.  
+  
+3. ```git branch <branch-name>```
+> Create a new branch <branch-name> but remain in previos branch.
+
+
 ## For more info
 
  - [Git Flow Branch Strategy](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy#:~:text=The%20two%20primary%20branches%20in,feature%2C%20release%2C%20and%20hotfix.)
