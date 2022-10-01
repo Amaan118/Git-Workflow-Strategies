@@ -44,9 +44,18 @@ The base of the hotfix branch should be your main branch and should be merged ba
   
 2. ```git branch```
 > List all branches.  
+
+3. ```git branch -a```
+> List all remote branches.
   
-3. ```git branch <branch-name>```
-> Create a new branch <branch-name> but remain in previos branch.
+5. ```git branch <branch-name>```
+> Create a new branch <branch-name> but remain in previos branch.  
+  
+6. ```git checkout -b <branch-name>```
+> Create a new branch <branch-name> and checkout to the <branch-name>.
+
+7. ```git branch -m <branch-name>```
+> Rename the current branch to ＜branch-name＞.
 
 
 ## For more info
