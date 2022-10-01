@@ -37,14 +37,23 @@ The base of the hotfix branch should be your main branch and should be merged ba
 ![Logo](https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/git-flow.svg)
 
 ## Initializing Git Repository using git bash / cmd
-1. git init
+1. ```git init```
 > Initializes a new github repo
 
-2. git add .
+2. ```git add .```
 > Move all the files to staging area
 
-3. git remote add origin <url>
+3. ```git remote add origin <url>```
 > Add url of the repo you have newly created at the github.com
+
+4. ```git commit -m "Initial Commit"```
+> Commit changes to repo
+
+5. ```git checkout -b main```
+> Change branch to main by creating one
+
+6. ```git push -u origin main```
+> Push all the code to repo
 
 ### some commands which deals with git branches  
 
