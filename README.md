@@ -72,6 +72,8 @@ The base of the hotfix branch should be your main branch and should be merged ba
 12. ```git stash list```
 > lits all the content of stash
   
+13. ```git stash apply stash@number```
+> Copy data from provided stash
   
 ## For more info
 
