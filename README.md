@@ -57,6 +57,11 @@ The base of the hotfix branch should be your main branch and should be merged ba
 7. ```git branch -m <branch-name>```
 > Rename the current branch to ＜branch-name＞.
 
+8. ```git branch -d <branch-name>```
+> Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
+
+9. ```git branch -D <branch>```
+> Force delete the specified branch, even if it has unmerged changes. This is the command to use if you want to permanently throw away all of the commits associated with a particular line of development.
 
 ## For more info
 
