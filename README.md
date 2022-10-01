@@ -68,7 +68,11 @@ The base of the hotfix branch should be your main branch and should be merged ba
   
 11. ```git stash```
 > pushes unstaged directory content to stash 
-
+  
+12. ```git stash list```
+> lits all the content of stash
+  
+  
 ## For more info
 
  - [Git Flow Branch Strategy](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy#:~:text=The%20two%20primary%20branches%20in,feature%2C%20release%2C%20and%20hotfix.)
