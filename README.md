@@ -36,11 +36,14 @@ The base of the hotfix branch should be your main branch and should be merged ba
 
 ![Logo](https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/git-flow.svg)
 
+## Initializing Git Repository using git bash / cmd
+2. git add .
+> Move all the files to staging area
 
 ### some commands which deals with git branches  
 
 1. ```git checkout <branch-name>```
-> Checkout to the <branch-name> branch.  
+> Checkout to the <branch-name> branch.
   
 2. ```git branch```
 > List all branches.  
