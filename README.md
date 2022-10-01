@@ -43,6 +43,9 @@ The base of the hotfix branch should be your main branch and should be merged ba
 2. git add .
 > Move all the files to staging area
 
+3. git remote add origin <url>
+> Add url of the repo you have newly created at the github.com
+
 ### some commands which deals with git branches  
 
 1. ```git checkout <branch-name>```
