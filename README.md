@@ -65,6 +65,9 @@ The base of the hotfix branch should be your main branch and should be merged ba
 
 10. ```git merge <branch-name(which is to be merged)>```
 > merge the <branch-name> with the current branch.
+  
+11. ```git stash```
+> pushes unstaged directory content to stash 
 
 ## For more info
 
